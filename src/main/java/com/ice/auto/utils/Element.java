@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class WebElementHelper {
+public class Element {
 
 	public static WebElement getWebElement(String type,String locator) {
 		switch (type.toUpperCase()) {
