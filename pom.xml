@@ -17,12 +17,7 @@
         <cucumber.version>6.8.1</cucumber.version>
         <surefire.version>2.22.0</surefire.version>
     </properties>
-    <repositories>
-        <repository>
-            <id>sonatype-releases</id>
-            <url>https://oss.sonatype.org/content/repositories/releases/</url>
-        </repository>
-    </repositories>
+    
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
