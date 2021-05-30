@@ -1,0 +1,38 @@
+{
+  "connection": [
+    {
+      "id": "customerDB",
+      "server": "server1",
+      "database": "customerDetails",
+      "user": "user",
+      "password": "password"
+    },
+    {
+      "id": "productDB",
+      "server": "server2",
+      "database": "customerDetails",
+      "user": "user",
+      "password": "password"
+    }
+  ],
+  "statement": [
+    {
+      "id": "selectCustomer",
+      "connection": "customerDB",
+      "query": "select * from
+      some
+      where test_something
+      ='tmp'"
+    },
+    {
+      "id": "updateCustomer",
+      "connection": "customerDB",
+      "query": "  select * from customer where"
+    },
+    {
+      "id": "selectProduct",
+      "connection": "productDB",
+      "query": "  select * from product where"
+    }
+  ]
+}
